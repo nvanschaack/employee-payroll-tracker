@@ -28,9 +28,7 @@ function collectEmployees () {
     dontStop = confirm('Would you like to add another employee?')
 
   }
-
   return allEmployees
-
 }
 
   // TODO: Calculate and display the average salary
