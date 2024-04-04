@@ -4,7 +4,7 @@
 This application allows a payroll manager to enter in their employees information (name and salary) and view this information in a table. This way, the manager can see all of their employees' names and salaries listed one place. 
 
 ## Technologies Used
-- JavaScript
+- JavaScript (version ES6+)
 - CSS3
 - HTML5
 
