@@ -7,6 +7,7 @@ const addEmployeesBtn = document.querySelector('#add-employees-btn');
 
 function collectEmployees () {
   const allEmployees = []
+  
   let dontStop = true
 
   while (dontStop) {
@@ -44,8 +45,7 @@ const displayAverageSalary = function (employeesArray) {
 
   const avr = someSum / employeesArray.length
 
-  console.log(employeesArray.length);
-  console.log(avr);
+  console.log(`The average employee salary between our ${employeesArray.length} employee(s) is ${avr}.`);
 }
 
   // TODO: Select and display a random employee
