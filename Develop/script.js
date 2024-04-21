@@ -13,7 +13,8 @@ function collectEmployees () {
   while (dontStop) {
     const firstName = prompt(`First Name`);
     const lastName = prompt(`Last Name`);
-    const salary = parseInt(prompt(`Salary`));
+    //make sure salary, since its subject to change, is a "let" and not a "const"
+    let salary = parseInt(prompt(`Salary`));
     if (isNaN(salary)) {
       salary = 0
     }
